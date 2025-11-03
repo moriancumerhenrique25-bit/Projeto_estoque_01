@@ -5,6 +5,7 @@ Cliente Mercado
 Dsenvolvedores:
 Enzo Soares Matias 
 Henrique M.S Felipe
+Hudson ferreira
 
 Desenvolvemos um sistema de controle de estoque voltado para as necessidades de um mercado, incorporando as seguintes funções:
 - Tela de login
