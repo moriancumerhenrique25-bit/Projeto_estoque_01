@@ -5,7 +5,9 @@ Cliente Mercado
 Dsenvolvedores:
 Enzo Soares Matias 
 Henrique M.S Felipe
-Hudson ferreira
+Hudson  L. Ferreira
+Gabriel terci
+Pedro Poiato
 
 Desenvolvemos um sistema de controle de estoque voltado para as necessidades de um mercado, incorporando as seguintes funções:
 - Tela de login
@@ -15,6 +17,17 @@ Desenvolvemos um sistema de controle de estoque voltado para as necessidades de 
 - Remover produtos
 - Realizar venda
 - Fechar Sistema
+
+Tela de uso
+===== MENU ESTOQUE =====
+1 - Listar produtos
+2 - Adicionar produto
+3 - Remover produto
+4 - Realizar venda
+5 - Relatório de vendas
+6- voltar para menu
+7 - Sair
+Escolha uma opção:
 
 """
 
@@ -60,7 +73,8 @@ if usuario == "admin" and senha == "123" and ativo:
         print("3 - Remover produto")   
         print("4 - Realizar venda")
         print("5 - Relatório de vendas")
-        print("6 - Sair")
+        print("6- voltar para menu")
+        print("7 - Sair")
         opcao = input("Escolha uma opção: ")
 
         # OPÇÃO 1 - LISTAR PRODUTOS IF
@@ -120,7 +134,7 @@ if usuario == "admin" and senha == "123" and ativo:
              print(somar(produto[8]["kilo"],produto[8]["valor"]))
              print(somar(produto[9]["kilo"],produto[9]["valor"]))
              print(somar(produto[10]["kilo"],produto[10]["valor"]))
-
+            
         # BLOCO 7 - SAIR DO SISTEMA
         elif opcao == "6":
             print("Saindo do sistema...")
@@ -129,4 +143,4 @@ if usuario == "admin" and senha == "123" and ativo:
         else:
             print("Opção inválida!\n")
 else:
-    print("Falha\xa0no\xa0login.")'''
+    print("Falha\xa0no\xa0login.")
